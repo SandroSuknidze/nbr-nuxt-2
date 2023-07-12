@@ -1,0 +1,89 @@
+$colors: (
+  'transparent': transparent,
+  'black': #000,
+  'red': #ff0000,
+  'main-red': #f26363,
+  'light-red': #f9ebeb,
+  'nice-blue': #1968c3,
+  'light-blue': #e4edf9,
+  'green': #5bcc8c,
+  'payment-green': #19c3a7,
+  'light-green': #e7f9f1,
+  'pale-gold': #fdc93c,
+  'marigold': #ffbc00,
+  'light-yellow': #fff1d5,
+  'navy': #031d3c,
+  'blue-grey': #848a98,
+  'bg-color': #f4f7fc,
+  'white': #ffffff,
+  'warm-grey': #707070,
+  'warm-grey-two': #757575,
+  'duck-egg-blue': #f0f4fc,
+  'midnight': #031225,
+  'midnight-light': #1a293a,
+  'bg-package': #f0f4fc,
+  'placeholder': #9da1a9,
+  'pale-grey': #e6e7eb,
+  'cool-grey': #9da1a9,
+  'light-blue-grey': #e4edf8,
+  'light-blue-2': #1a68c3,
+  'light-yellow-2': #c3d918
+);
+$transition-duration-base: 0.4s;
+$font-families: (
+  'regular': 'Open Sans',
+  'title': 'GalanoGrotesqueAltDEMO'
+);
+$text-colors: ('black', 'navy', 'blue-grey', 'warm-grey', 'warm-grey-two', 'nice-blue');
+$background-colors: ('white', 'transparent');
+$font-family-base: map-get($font-families, 'regular');
+$header-height: 130px;
+$font-weights: (
+  'bold': bold
+);
+$z-index: (
+  'header': 1000,
+  'modal': 2000
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xlg: 1400px,
+  xxlg: 1681px
+) !default;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1440px
+);
+$theme-colors: ();
+$svg-fills: ('nice-blue');
+$font-sizes: (
+  'xxs': 12,
+  'xs': 14,
+  'normal': 16,
+  'sm': 17,
+  'md': 18,
+  'lg': 22
+);
+$display-types: (flex, inline-flex, inline-block);
+$cursor-types: (default, pointer, progress, not-allowed);
+$object-fit-types: (contain, cover);
+$opacities: (30, 40, 80);
+$text-decorations: (none, underline);
+$list-style-types: (none);
+$border-radiuses: (1, 2, 3);
+$whitespace-types: (nowrap, wrap);
+$text-transform: (uppercase, lowercase, capitalize);
+$heights: ();
+$visibility-types: (hidden);
+
+$text-sizes: (
+  1: rem(60)
+);
+
+$quiz-head-height: fit-content;

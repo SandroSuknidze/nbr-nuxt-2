@@ -1,0 +1,7 @@
+@function rem($font-size, $base-font-size: 16) {
+  @return $font-size / $base-font-size + rem;
+}
+
+@function color($colorName, $colors: $colors) {
+  @return map-get($colors, $colorName);
+}

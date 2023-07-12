@@ -1,0 +1,15 @@
+:root {
+  @each $bp, $value in $grid-breakpoints {
+    --breakpoint-#{$bp}: #{$value};
+  }
+  @each $name, $color in $colors {
+    --color-#{$name}: #{$color};
+  }
+  --transition-duration: #{$transition-duration-base};
+}
+
+@media (prefers-reduced-motion) {
+  :root {
+    --transition-duration: 0;
+  }
+}

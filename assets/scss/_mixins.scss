@@ -1,0 +1,90 @@
+@mixin disabled-input {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@mixin background-color($color, $important: false) {
+  @if $important {
+    background-color: map-get($colors, $color) !important;
+  } @else {
+    background-color: map-get($colors, $color);
+  }
+}
+
+@mixin text-color($color, $important: false) {
+  @if $important {
+    color: map-get($colors, $color)  !important;
+  } @else {
+    color: map-get($colors, $color);
+  }
+}
+
+@mixin font-size-rem($size-name, $important: false) {
+  @if $important {
+    font-size: rem(map-get($font-sizes, $size-name)) !important;
+  } @else {
+    font-size: rem(map-get($font-sizes, $size-name));
+  }
+}
+
+@mixin font-family($name) {
+  font-family: map-get($font-families, $name);
+}
+
+@mixin svg-fill($color, $important: false) {
+  @if $important {
+    fill: map-get($colors, $color) !important;
+  } @else {
+    fill: map-get($colors, $color);
+  }
+}
+
+@mixin horizontal-scroll-snap {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  scroll-padding: 0%;
+  scroll-snap-type: x mandatory;
+}
+
+@mixin media-breakpoint-720p {
+  @media (min-width: 1250px) and (max-width: 1367px) {
+    @content;
+  }
+}
+
+@mixin padding-x($size) {
+  padding-left: $size;
+  padding-right: $size;
+}
+
+@mixin padding-y($size) {
+  padding-top: $size;
+  padding-bottom: $size;
+}
+
+@mixin margin-x($size) {
+  margin-left: $size;
+  margin-right: $size;
+}
+
+@mixin margin-y($size) {
+  margin-top: $size;
+  margin-bottom: $size;
+}
+
+@mixin overlay-bg() {
+  background-color: transparentize(map-get($colors, 'dark'), 0.1);
+}
+
+@mixin border-radius($multiplier: 1) {
+  border-radius: $border-radius * $multiplier;
+}
+
+@mixin z-index($size: 'sm') {
+  z-index: map-get($z-index, $size);
+}
+
+@mixin flex-center {
+  align-items: center;
+  justify-content: center;
+}

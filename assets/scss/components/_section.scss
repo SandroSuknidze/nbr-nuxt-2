@@ -1,0 +1,32 @@
+@mixin title-style($font-size, $color) {
+  font-size: rem($font-size);
+  @include text-color($color);
+  font-weight: bold;
+  @include font-family('title');
+}
+
+.section {
+  &__suptitle {
+    @include title-style(24, 'nice-blue');
+  }
+
+  &__title {
+    line-height: 1.35;
+    @include title-style(50, 'navy');
+    margin-bottom: 30px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: rem(18);
+    @include text-color('blue-grey');
+
+
+    @include media-breakpoint-up(lg) {
+      width: 70%;
+    }
+  }
+}

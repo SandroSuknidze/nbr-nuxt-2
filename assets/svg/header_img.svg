@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 400" style="enable-background:new 0 0 2000 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F4F7FD;}
+	.st1{opacity:5.000000e-02;fill:#1968C3;enable-background:new    ;}
+	.st2{opacity:5.000000e-02;fill:url(#Polygon_3_1_);enable-background:new    ;}
+	.st3{opacity:5.000000e-02;fill:url(#Polygon_4_1_);enable-background:new    ;}
+	.st4{opacity:5.000000e-02;fill:url(#Polygon_9_1_);enable-background:new    ;}
+</style>
+<rect id="Rectangle_144" class="st0" width="2000" height="400"/>
+<path id="Polygon_2" class="st1" d="M377.6,58.9c6.8,8.2,8.5,19.2,4.6,29l-47.5,117.9c-4.1,10.3-13.9,17.5-25.4,18.9l-131.5,15.4
+	c-10.9,1.3-21.7-3-28.4-11.2L64,124.8c-6.8-8.2-8.5-19.2-4.6-29L106.9-22c4.1-10.3,13.9-17.5,25.4-18.9l131.5-15.4
+	c10.9-1.3,21.7,3,28.4,11.2L377.6,58.9z"/>
+<linearGradient id="Polygon_3_1_" gradientUnits="userSpaceOnUse" x1="0.7336" y1="399.3795" x2="0.7336" y2="398.3472" gradientTransform="matrix(221.8194 283.756 249.796 -195.272 -99142.9609 78064.3516)">
+	<stop  offset="0" style="stop-color:#1968C3"/>
+	<stop  offset="1" style="stop-color:#0D3462;stop-opacity:0.239"/>
+</linearGradient>
+<path id="Polygon_3" class="st2" d="M823.5,336.5c13.5,16.5,17,38.5,9.1,58.1l-43,106.4c-8.3,20.5-27.7,35-50.6,37.7l-118.7,14
+	c-21.8,2.6-43.4-5.9-57-22.4L485,434.9c-13.5-16.5-17-38.5-9.1-58.1l43-106.4c8.3-20.5,27.7-35,50.6-37.7l118.7-14
+	c21.8-2.6,43.4,5.9,57,22.4L823.5,336.5z"/>
+<linearGradient id="Polygon_4_1_" gradientUnits="userSpaceOnUse" x1="1.0621" y1="400.0372" x2="1.0621" y2="399.0029" gradientTransform="matrix(368.4044 471.2706 405.82 -317.24 -161374.4062 126308.2969)">
+	<stop  offset="0" style="stop-color:#1968C3"/>
+	<stop  offset="1" style="stop-color:#0D3462;stop-opacity:0.239"/>
+</linearGradient>
+<path id="Polygon_4" class="st3" d="M1438.8,1.9c13.5,16.5,17,38.5,9.1,58.1l-86.1,213.4c-8.3,20.5-27.8,35-50.7,37.7L1073,339.2
+	c-21.8,2.6-43.4-5.9-56.9-22.4L861.4,128.3c-13.5-16.5-17-38.5-9.1-58.1l86.1-213.4c8.3-20.5,27.8-35,50.7-37.7l238.2-28.1
+	c21.8-2.6,43.4,5.9,56.9,22.4L1438.8,1.9z"/>
+<linearGradient id="Polygon_9_1_" gradientUnits="userSpaceOnUse" x1="0.4904" y1="401.8944" x2="0.4904" y2="400.8644" gradientTransform="matrix(287.7657 -319.5962 -278.6793 -250.924 113449.4141 101271.9531)">
+	<stop  offset="0" style="stop-color:#1968C3"/>
+	<stop  offset="1" style="stop-color:#0D3462;stop-opacity:0.239"/>
+</linearGradient>
+<path id="Polygon_9" class="st4" d="M1644,217.1c14.7-15.5,36.9-22.6,58.4-18.6l152,28.3c22.7,4.2,41,20,47.8,41l45.4,141.1
+	c6.4,20,1.4,41.8-13.3,57.3L1824.8,582c-14.7,15.5-36.9,22.6-58.4,18.6l-152-28.3c-22.7-4.2-41-20-47.8-41l-45.4-141.1
+	c-6.4-20-1.4-41.8,13.3-57.3L1644,217.1z"/>
+</svg>

@@ -1,0 +1,143 @@
+@each $type in $list-style-types {
+  .list-style\:#{$type} {
+    list-style: $type;
+  }
+}
+
+@each $radius in $border-radiuses {
+  .rounded-#{$radius} {
+    border-radius: $border-radius * $radius;
+  }
+}
+
+@each $transformType in $text-transform {
+  .text-transform-#{$transformType} {
+    text-transform: $transformType;
+  }
+}
+
+@each $name in $background-colors {
+  .bg-#{$name} {
+    @include background-color($name);
+  }
+}
+
+@each $name in $text-colors {
+  .text-#{$name} {
+    @include text-color($name);
+  }
+}
+
+@each $name in $svg-fills {
+  .fill-#{$name} {
+    @include svg-fill($name, true);
+  }
+}
+
+@each $name, $value in $font-sizes {
+  .text-#{$name} {
+    font-size: rem($value);
+  }
+}
+
+@each $name, $value in $text-sizes {
+  .text-size-#{$name} {
+    font-size: $value;
+  }
+}
+
+@each $name, $family in $font-families {
+  .font-#{$name} {
+    font-family: $family;
+  }
+}
+
+@each $name, $weight in $font-weights {
+  .fw-#{$name} {
+    font-weight: $weight !important;
+  }
+}
+
+@each $type in $cursor-types {
+  .cursor-#{$type} {
+    cursor: $type;
+  }
+}
+
+@each $type in $object-fit-types {
+  .object-fit\:#{$type} {
+    object-fit: $type;
+  }
+}
+
+@each $display in $display-types {
+  .#{$display} {
+    display: $display;
+  }
+}
+
+@each $Yposition in (top, bottom) {
+  @each $Xposition in (left, right) {
+    .#{$Yposition}-#{$Xposition} {
+      #{$Xposition}: 0;
+      #{$Yposition}: 0;
+    }
+  }
+}
+
+@each $opacity in $opacities {
+  .opacity-#{$opacity} {
+    opacity: $opacity / 100;
+  }
+}
+
+@each $type in $text-decorations {
+  .text-#{$type} {
+    text-decoration: $type;
+  }
+}
+
+@each $type in $whitespace-types {
+  .whitespace-#{$type} {
+    white-space: $type;
+  }
+}
+
+@each $height in $heights {
+  .h-#{$height} {
+    height: $height * 1%;
+  }
+}
+
+@each $type in $visibility-types {
+  .visibility-#{$type} {
+    visibility: $type;
+  }
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.px-normal {
+  @include padding-x(15px);
+}
+
+@each $breakpoint, $size in $grid-breakpoints {
+  .px-#{$breakpoint}-normal {
+    @include media-breakpoint-up($breakpoint) {
+      @include padding-x(15px);
+    }
+  }
+}
+
+@for $i from 1 through 5 {
+  .z-index-#{$i} {
+    z-index: $i;
+  }
+}
+
+[v-cloak] {
+  display: none;
+}
